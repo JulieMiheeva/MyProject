@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315a80f0-b785-4caf-a4a5-bdc60024dcc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FourthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SecondTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThirdTest.java" afterDir="false" />
+    <list default="true" id="315a80f0-b785-4caf-a4a5-bdc60024dcc3" name="Changes" comment="Homework - Lesson 3 - Mikheeva Yulia">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TriangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DLNKcIt7abN8LjHNfHbRZT1PHf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +49,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FourthTest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn site surefire-report:report " />
+      <command value="mvn clean install" />
+      <command value="mvn site surefire-report:report" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TriangleTest">
     <configuration name="FourthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FourthTest" />
       <module name="MyProject" />
@@ -54,41 +64,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+    <configuration name="TriangleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThirdTest" />
+    <configuration name="TriangleTest.testWithCsvSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="testWithCsvSource(int,int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThirdTest1" />
+    <configuration name="TriangleTest.testWithCsvSourceNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="METHOD_NAME" value="testWithCsvSourceNew(int,int,int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TriangleTest.test" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSource" />
+        <item itemvalue="JUnit.TriangleTest.testWithCsvSourceNew" />
         <item itemvalue="Application.FourthTest" />
-        <item itemvalue="Application.ThirdTest" />
-        <item itemvalue="Application.SecondTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ThirdTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -101,6 +122,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660474348005</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework - Lesson 3 - Mikheeva Yulia">
+      <created>1662036840465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662036840465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,5 +142,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework - Lesson 3 - Mikheeva Yulia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework - Lesson 3 - Mikheeva Yulia" />
   </component>
 </project>
